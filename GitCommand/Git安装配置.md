@@ -33,9 +33,9 @@ git --version
 
 ## 2. 初始化配置
 
-在任意区域右键打开
+在任意区域右键打开`Git Bash`
 
-设置姓名和邮箱地址
+### 2.1 设置姓名和邮箱地址
 
 ```bash
 git config --global user.name "your name"
@@ -60,7 +60,15 @@ git config --global user.email "your_email@example.com"
 | `local`  |            **当前仓库**            |    `仓库目录\.git\config`    |
 | `system` |   当前计算机的**所有用户**的仓库   | `git安装路径\etc\gitconfig`  |
 
+### 2.2 查看git所有配置
+
+```bash
+git config --list --show-origin
+```
+
 ---
+
+
 
 
 
