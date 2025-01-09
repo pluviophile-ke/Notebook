@@ -66,6 +66,8 @@ namespace HL2Stream
 
 生成设置
 
+HoloLens2 ARM64 Release
+
 
 
 
