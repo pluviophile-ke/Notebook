@@ -10,6 +10,8 @@ pch.h中添加
 
 ```c#
 #include <winrt\base.h>
+#include <mutex>
+
 #include "ResearchModeApi.h"
 
 #include "AccelProcessor.h"
